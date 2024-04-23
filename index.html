@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Makanan</title>
+</head>
+<body>
+    <h2>warung makan ibnucps</h2>
+    <form action="metodepembayaran.html" method="post">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama" required><br>
+        
+        <label for="alamat">Alamat Pengiriman:</label><br>
+        <textarea id="alamat" name="alamat" rows="4" cols="50" required></textarea><br>
+        
+        <label for="makanan">Pilih Makanan:</label><br>
+        <select id="makanan" name="makanan" required>
+            <option value="">Pilih Makanan</option>
+            <option value="sate ayam">sate ayam</option>
+            <option value="sop Ayam">sop Ayam</option>
+            <option value="Sate kambing">Sate kambing</option>
+            <option value="nasi pecel">nasi pecel</option>
+        </select><br>
+        
+        <label for="jumlah">Jumlah:</label><br>
+        <input type="number" id="jumlah" name="jumlah" min="1" required><br>
+        
+        <input type="submit" value="Pesan" link rel="stylesheet" href="metodepembayaran.html">
+    </form>
+</body>
+</html>
